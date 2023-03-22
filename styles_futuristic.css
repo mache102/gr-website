@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+    background-color: #1b1b1b;
+    color: #e6e6e6;
+    font-family: "Roboto Condensed", sans-serif;
+}
+  
+  a {
+    color: #00eaff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Main styles */
+  main {
+    flex-basis: 70%;
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    flex-basis: 25%;
+    background-color: #2b2b2b;
+    color: #e6e6e6;
+    padding: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2b2b2b;
+    color: #e6e6e6;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  /* Showcase styles */
+  .showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .showcase-item {
+    flex-basis: calc(33.33% - 2rem);
+    margin-bottom: 2rem;
+  }
+  
+  .showcase-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .showcase-item h4 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  .showcase-item p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    background-color: #00eaff;
+    color: #1b1b1b;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00b8d4;
+  }
